@@ -1,20 +1,20 @@
 <?php
-
+/*
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Illuminate\Foundation\Testing\DatabaseTransactions;*/
 
-class ExampleTest extends TestCase
+class ExampleTest extends FeatureTestCase
 {
 	//use DatabaseMigrations;
-	use DatabaseTransactions;
+	//use DatabaseTransactions;
 
     /**
      * A basic functional test example.
      *
      * @return void
      */
-    public function testBasicExample()
+	function test_basic_example()
     {
     	$name = "Victor Planchuelo";
     	$email = 'admin@forolaravel53.com';
